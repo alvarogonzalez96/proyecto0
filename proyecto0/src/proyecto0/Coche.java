@@ -27,6 +27,7 @@ public class Coche {
 		
 		BufferedImage im = null;
 		try {
+			//La ruta está así porque el programa está hecho en Mac; y si no, no coge la imagen, a no ser que ponga la ruta entera
 			im = ImageIO.read(new File("/Users/alvaro/Downloads/ud/prog3/pr00/coche.png"));
 		} catch(Exception e) {
 			e.printStackTrace();
